@@ -1,0 +1,31 @@
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 5px 6px gray;
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+
+
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 10px;
+    color: aqua;
+    padding: 0 20px;
+}
+
+.open{
+    display:run-in;
+}
+
+
+
+a{
+    text-decoration:none ;
+    padding: 10px;
+    margin-left: 50px;
+}

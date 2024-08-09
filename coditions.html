@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>if else statement</h1>
+    <h5 id="amount-level"></h5>
+
+    <script>
+let amount= 1000000;
+
+if(amount <=1000){
+    level="poor";
+
+}
+
+
+
+else if(amount <=100000){
+level="middleclass";
+
+}
+
+else if(amount<=100000000){
+level="rich";
+
+}
+
+else if(amount <=100000000000){
+level="governor";
+
+}
+
+else  if(amount >=1000000000000000){
+level="presido";
+
+}
+
+
+
+
+
+
+document.getElementById("amount-level").innerHTML=level
+
+
+
+console.log(level)
+
+
+    </script>
+</body>
+</html>

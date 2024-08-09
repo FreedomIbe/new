@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+<link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="demo2.css">
+</head>
+<body>
+    <header>
+        
+    <nav  >
+        <ul class="sidebar">
+            <img src="img/xmark-solid.svg" onclick=" closeSideBar()" height="40px">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="demo.html">About</a></li>
+            <li><a href="products.html">Products </a></li>
+            <li><a href="">Services</a></li>
+        </ul>
+    
+    
+    
+        <ul>
+            <li class="showOnMobile">STM</li>
+            <li  class="hideOnMobile"><a href="Home.html">Home</a></li>
+            <li class="hideOnMobile" ><a href="demo.html">About </a></li>
+            <li class="hideOnMobile" ><a href="products.html">Products</a></li>
+            <li class="hideOnMobile"><a href="">Services</a></li>
+            <li class="MenuMobile" onclick="showSideBar()"><img   src="img/bars-solid.svg"  height="40px"></li>
+        </ul>
+    </nav>
+
+
+
+
+<main>
+
+<div class="text-center text-danger text-lg"> Enjoy any of our <b class="text-warning">delicious goodies</b>At <b class="text-primary">STM</b>confectionaries</div>
+<br>
+    <div class="container" style="flex-wrap: wrap;">
+        
+            
+        <img src="field-of-different-types-of-donuts.jpg" title="field-of-different-types-of-donuts" class="img" alt="">        
+                <img src="cigarette-pastry-cheese-pie-on-wood-floor-fried-cheese-rolls-with-phyllo-local-name-sigara.jpg" alt="" title="cigarette-pastry-cheese-pie-on-wood-floor-fried-cheese-rolls-with-phyllo">
+                <img src="colorful-sweet-background-delicious-glazed-donuts-on-pink-background.jpg" alt="" title="colorful-sweet-background-delicious-glazed-donuts-on-pink-background">
+                <img src="deep-fried-turnovers-with-beef-meat-filling_268847-563.jpg" alt="" title="deep-fried-turnovers-with-beef-meat-filling">
+                <img src="argentine-empanada-isolated-white-background_434193-7907.jpg" title="argentine-empanada" alt="">
+                <img src="cheburek-meat-pastry-pie-with-herbs-black-wooden-background-top-view-copy-space_89816-28881.jpg" title="cheburek-meat-pastry-pie-with-herbs" alt="">
+            </div>
+            
+        
+    
+
+</main>
+
+<br>
+<br>
+<br>
+<br>
+
+
+    
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script>
+        function showSideBar(){
+            document.querySelector(".sidebar").style.display='block'
+        }
+
+        function closeSideBar(){
+            document.querySelector(".sidebar").style.display='none'
+        }
+    </script>
+    </header>
+</body>
+</html>

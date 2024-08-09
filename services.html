@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+<link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="demo2.css">
+</head>
+<body>
+    <header>
+        
+    <nav  >
+        <ul class="sidebar">
+            <img src="img/xmark-solid.svg" onclick=" closeSideBar()" height="40px">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="demo.html">About</a></li>
+            <li><a href="products.html">Products </a></li>
+            <li><a href="services.html">Services</a></li>
+        </ul>
+    
+    
+    
+        <ul>
+            <li class="showOnMobile">STM</li>
+            <li  class="hideOnMobile"><a href="Home.html">Home</a></li>
+            <li class="hideOnMobile" ><a href="demo.html">About </a></li>
+            <li class="hideOnMobile" ><a href="products.html">Products</a></li>
+            <li class="hideOnMobile"><a href="services.html">Services</a></li>
+            <li class="MenuMobile" onclick="showSideBar()"><img   src="img/bars-solid.svg"  height="40px"></li>
+        </ul>
+    </nav>
+
+
+
+
+<main>
+
+
+
+    <div class="container">
+        <div class="row text-center">About us</div>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>
+                    
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque dolorum a nisi exercitationem fugiat! Quia architecto beatae rem voluptas nihil. Dolorem earum reprehenderit vitae, magnam excepturi dolorum sint minus nostrum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque necessitatibus, aliquam, quasi eaque vero laborum odio deleniti veritatis quidem sint ullam veniam non commodi tempore, debitis mollitia optio ipsum iste!
+        Lorem ipsum, dolor si
+            
+                </p>
+                <button class="btn btn-lg text-danger btn-primary">click 1</button>
+            </div>
+            
+            <div class="col-sm-4">
+                <p>
+                    
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque dolorum a nisi exercitationem fugiat! Quia architecto beatae rem voluptas nihil. Dolorem earum reprehenderit vitae, magnam excepturi dolorum sint minus nostrum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque necessitatibus, aliquam, quasi eaque vero laborum odio deleniti veritatis quidem sint ullam veniam non commodi tempore, debitis mollitia optio ipsum iste!
+        Lorem ipsum, dolor si
+            
+                </p>
+                <button class="btn btn-lg text-primary btn-danger">click me</button>
+            </div>
+            <div class="col-sm-4">
+                <p>
+                    
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque dolorum a nisi exercitationem fugiat! Quia architecto beatae rem voluptas nihil. Dolorem earum reprehenderit vitae, magnam excepturi dolorum sint minus nostrum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque necessitatibus, aliquam, quasi eaque vero laborum odio deleniti veritatis quidem sint ullam veniam non commodi tempore, debitis mollitia optio ipsum iste!
+        Lorem ipsum, dolor si
+            
+                </p>
+                <button class="btn btn-lg text-warning btn-primary">click me</button>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<br>
+<br>
+<br>
+<br>
+
+
+    
+    <footer class="section-p1">
+      <div class="col">
+         <img class="logo" src="img/logo.png" alt="">
+         <h4>Contact</h4> 
+         <p><strong>Address:</strong> 562 Wellington Road, Street 32,san Francisco</p>
+         <p><strong>Phone:</strong> +234 811 9545 460</p>
+         <p><strong>Hours:</strong>12:00 - 12:00, Mon - Sat</p>
+         <div class="follow">
+          <h4>followus</h4>
+          <div class="icon"></div>
+         </div>
+      </div> 
+
+      <div class="col">
+          <h4>About</h4>
+          <a href="#">About Us</a>
+          <a href="#">Delivery Information </a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Contact us</a>
+      </div>
+
+      <div class="col">
+          <h4>My Account</h4>
+          <a href="#">Sign In</a>
+          <a href="#">View Cart </a>
+          <a href="#">My Wishlist </a>
+          <a href="#">Track My Order</a>
+          <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+          <h4>Install App</h4>
+          <p>From AppStore or Google Play</p>
+          <div class="row">
+              <img src="img/pay/app.jpg" alt="">
+              <img src="img/pay/play.jpg" alt="">
+          </div>
+          <p>secure payment Gateways</p>
+          <img src="img/pay/pay.png" alt="">
+      </div>
+      <div class="copyright">
+          <p>@ 2022, Ecommerce Template</p>
+      </div>
+    </footer>
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script>
+        function showSideBar(){
+            document.querySelector(".sidebar").style.display='block'
+        }
+
+        function closeSideBar(){
+            document.querySelector(".sidebar").style.display='none'
+        }
+    </script>
+    </header>
+</body>
+</html>
